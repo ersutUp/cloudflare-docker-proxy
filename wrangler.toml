@@ -27,7 +27,7 @@ routes = [
 
 [env.production.vars]
 MODE = "production"
-CUSTOM_DOMAIN = "83889573.xyz"
+secrets.CUSTOM_DOMAIN = "83889573.xyz"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.staging]
