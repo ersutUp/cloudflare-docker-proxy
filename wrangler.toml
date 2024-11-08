@@ -28,7 +28,7 @@ routes = [
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "83889573.xyz1"
+CUSTOM_DOMAIN = "83889573.xyz"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
