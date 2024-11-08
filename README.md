@@ -3,7 +3,11 @@
 - https://www.cnblogs.com/KubeExplorer/p/18264358#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
 - https://github.com/lixd/cloudflare-docker-proxy
 
-下图中的环境变量可能需要手动修改
+补充按照下图修改文件
+
+![](./Snipaste_2024-11-08_20-34-44.png)
+
+不修改可能会导致 CUSTOM_DOMAIN 变量被重置，如图
 
 ![](./Snipaste_2024-11-08_20-08-38.png)
 
