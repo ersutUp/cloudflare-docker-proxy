@@ -1,3 +1,12 @@
+部署参考：
+- https://jerry.xin/202406/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84docker%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E6%9C%8D%E5%8A%A1%EF%BC%9Acloudflare-docker-proxy/
+- https://www.cnblogs.com/KubeExplorer/p/18264358#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
+- https://github.com/lixd/cloudflare-docker-proxy
+
+下图中的环境变量可能需要手动修改
+
+![](./Snipaste_2024-11-08_20-08-38.png)
+
 # cloudflare-docker-proxy
 
 ![deploy](https://github.com/ciiiii/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
