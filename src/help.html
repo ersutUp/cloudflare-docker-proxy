@@ -87,9 +87,13 @@
 <div class="container">
     <div class="content">
         <p>为了加速 Docker 镜像拉取，你可以使用以下命令设置 registry mirror:</p>
-        <pre><code id="registry-config">sudo tee /etc/docker/daemon.json &lt;&lt;EOF
+        <pre><code id="registry-config">sudo gpasswd -a ${USER} docker
+
+sudo tee /etc/docker/daemon.json &lt;&lt;EOF
 {
     "registry-mirrors": ["https://{{host}}"]
+    "log-driver":"json-file",
+    "log-opts": {"max-size":"1g", "max-file":"3"}
 }
 EOF
 # 配置完后需要重启 Docker 服务
