@@ -91,7 +91,7 @@
 
 sudo tee /etc/docker/daemon.json &lt;&lt;EOF
 {
-    "registry-mirrors": ["https://{{host}}"]
+    "registry-mirrors": ["https://{{host}}"],
     "log-driver":"json-file",
     "log-opts": {"max-size":"1g", "max-file":"3"}
 }
